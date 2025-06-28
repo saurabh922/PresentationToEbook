@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+MEDIUM_BLOG_POST.md
+*.egg-info
+ppt_to_ebook.log
+
+# Virtual environments
+venv
+.DS_Store
+backup/

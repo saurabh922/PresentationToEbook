@@ -1,0 +1,23 @@
+# Core Web Framework
+streamlit>=1.28.0
+
+# PowerPoint Processing
+python-pptx>=0.6.21
+
+# AI Content Enhancement
+google-generativeai>=0.3.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Image Processing
+Pillow>=9.0.0
+
+# DOCX Generation
+python-docx>=0.8.11
+
+# Additional Dependencies (automatically installed with above)
+# uuid - Built-in Python module for unique IDs
+# io - Built-in Python module for byte operations
+# traceback - Built-in Python module for error handling
+# logging - Built-in Python module for debug logging
