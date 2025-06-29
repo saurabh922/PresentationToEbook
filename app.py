@@ -105,7 +105,7 @@ class PPTToEBookConverter:
             try:
                 logger.debug("Configuring Gemini API with provided key")
                 genai.configure(api_key=gemini_api_key)
-                self.model = genai.GenerativeModel('gemini-2.5-pro')
+                self.model = genai.GenerativeModel('gemini-2.5-flash')
                 logger.info("Gemini API configured successfully")
             except Exception as e:
                 logger.error(f"Failed to configure Gemini API: {str(e)}")
